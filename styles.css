@@ -16,17 +16,20 @@ body {
   /* Sidebar */
   .sidebar {
     background-color: #192734;
-    padding: 20px;
+    padding: 14px;
     display: flex;
+    flex-shrink: 1;
     flex-direction: column;
     justify-content: space-between;
     border-right: 1px solid #2f3336;
   }
   
   .logo {
+    flex: 0;
     font-size: 22px;
-    margin-bottom: -4px;
+    margin-bottom: -12px;
     color: #1da1f2;
+    padding-bottom: -40px;
   }
   .menu{
     height: 200px;
