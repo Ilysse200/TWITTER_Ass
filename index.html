@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/6172984c6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <nav class="menu">
+        <a href="#" class="menu-item"><i class="fas fa-home"></i> Home</a>
+        <a href="#" class="menu-item"><i class="fas fa-hashtag"></i> Explore</a>
+        <a href="#" class="menu-item"><i class="fas fa-bell"></i> Notifications</a>
+        <a href="#" class="menu-item"><i class="fas fa-envelope"></i> Messages</a>
+        <a href="#" class="menu-item"><i class="fas fa-bookmark"></i> Bookmarks</a>
+        <a href="#" class="menu-item"><i class="fas fa-certificate"></i> Twitter Blue</a>
+        <a href="#" class="menu-item"><i class="fas fa-user"></i> Profile</a>
+        <a href="#" class="menu-item"><i class="fas fa-ellipsis-h"></i> More</a>
+      </nav>
+      <button class="tweet-btn">Tweet</button>
+      <div class="user-info">
+        <img src="ASSETS/user-profile.jpg" alt="Profile Picture">
+        <div>
+          <p>Devissa</p>
+          <span>@webdev_issa</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Feed -->
+    <main class="main-feed">
+      <div class="feed-header">
+        <h2>Home</h2>
+        <div class="tabs">
+          <span class="active-tab">For you</span>
+          <span>Following</span>
+        </div>
+      </div>
+      <div class="tweet-box">
+        <img src="ASSETS/profileImg.png" alt="Profile Picture" class="tweet-profile-pic">
+        <input type="text" placeholder="What’s happening?" class="tweet-input">
+      </div>
+      <div class="tweet">
+        <div class="tweet-header">
+          <img src="ASSETS/tweet-user.jpg" alt="Profile Picture" class="tweet-profile-pic">
+          <div>
+            <p class="user-name">Akash Chavda <span>@sky_chavda</span></p>
+            <p>4h</p>
+          </div>
+        </div>
+        <div class="tweet-content">
+          <p>React Interview is Not Just Question & Answer.</p>
+          <p>It Includes Coding Questions As Well.</p>
+          <p>I updated my React Interview Questions Guide with Coding Questions.</p>
+          <p>If you had it then refresh it you will get it or else</p>
+          <ul>
+            <li>To get it</li>
+            <li>- Like</li>
+            <li>- Reply "React"</li>
+            <li>- Follow me (so I can DM)</li>
+          </ul>
+        </div>
+        <img src="ASSETS/react-guide.jpg" alt="React Guide" class="tweet-image">
+      </div>
+    </main>
+
+    <!-- Right Sidebar -->
+    <aside class="right-sidebar">
+      <div class="trends">
+        <h3>Trends for you</h3>
+        <ul>
+          <li>Technology · Trending <strong>#reactjs</strong></li>
+          <li>Politics · Trending <strong>Uganda</strong></li>
+          <li>Trending in Rwanda <strong>Money</strong></li>
+        </ul>
+      </div>
+      <div class="who-to-follow">
+        <h3>Who to follow</h3>
+        <ul>
+          <li>
+            <img src="ASSETS/user2.jpg" alt="Profile Picture">
+            <div>
+              <p>John Doe</p>
+              <span>@john_doe</span>
+            </div>
+            <button>Follow</button>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
